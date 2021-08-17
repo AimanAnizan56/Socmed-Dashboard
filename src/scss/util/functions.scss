@@ -1,0 +1,22 @@
+// Source: https://css-tricks.com/snippets/sass/px-to-em-functions/
+// -- function to convert pixels to rem (root element's font-size)
+// -- 16px is the base size of the most browser
+@use 'sass:math';
+@function rem($pixels, $context: 16) {
+    /* @return ($pixels / $context) * 1rem; */
+    @return math.div($pixels, $context) * 1rem;
+}
+
+/* 
+
+-- how to use
+h1 {
+    font-size: rem(30);
+}
+
+-- what it's look like
+h1 { 
+    font-size: 1.875rem; // (30 / 16) * 1rem
+}
+
+*/
