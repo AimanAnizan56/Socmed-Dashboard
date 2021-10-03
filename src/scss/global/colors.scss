@@ -56,7 +56,7 @@
         --text-color2: var(--dark-text2);
         --card-bg: var(--dark-card);
         --card-hover: var(--dark-card-hover);
-        --toggle: var(--light-bg);
+        --toggle: var(--toggle-bg-light);
         --toggle-bg: linear-gradient(
             225deg,
             var(--toggle-bg-end) 0%,
@@ -72,7 +72,7 @@ body.dark {
     --text-color2: var(--dark-text2);
     --card-bg: var(--dark-card);
     --card-hover: var(--dark-card-hover);
-    --toggle: var(--light-bg);
+    --toggle: var(--toggle-bg-light);
     --toggle-bg: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);
     --toggle-button: var(--dark-bg);
 }
