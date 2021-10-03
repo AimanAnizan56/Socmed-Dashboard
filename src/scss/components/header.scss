@@ -21,4 +21,13 @@
         font-weight: 700;
         color: var(--text-color);
     }
+
+    &__toggle {
+        margin-top: 25px;
+        border: none;
+        border-top: var(--text-color) solid 1px;
+        width: 100%;
+        padding: 0;
+        padding-top: 20px;
+    }
 }
