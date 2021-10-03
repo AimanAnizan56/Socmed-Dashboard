@@ -101,7 +101,7 @@ I also found some js function that could remove redundant code such as :
 const radioButtons = document.querySelectorAll('.toggle__wrapper input');
 ```
 
-By using this, I could retrieve all radio buttons without using id. To add the event listener, I use loop since it returns all of the node list.
+By using this, I could retrieve all radio buttons without using id. To add the event listener, I use loop since it returns all of the node list of element :
 
 ```js
 for (let i = 0; i < radioButtons.length; i++) {
