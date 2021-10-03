@@ -9,3 +9,14 @@
         padding: 0;
     }
 }
+
+.attribution {
+    font-size: rem(11);
+    text-align: center;
+    margin-bottom: rem(36);
+    padding: 0 rem(30);
+
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
+}
