@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [Social Media Dashboard with Dark Mode Toggle](https://www.frontendmentor.io/solutions/social-media-dashboard-with-dark-mode-toggle-v37vBUnug)
 -   Live Site URL: [Frontend Mentor | Social Media Dashboard](https://aimananizan56.github.io/Socmed-Dashboard/)
 
 ## My process
